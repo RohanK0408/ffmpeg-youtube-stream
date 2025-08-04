@@ -1,0 +1,9 @@
+{
+  "build": {
+    "env": {
+      "SONG_URL": "https://your-link.com/song.mp3",
+      "RTMP_URL": "rtmp://a.rtmp.youtube.com/live2",
+      "STREAM_KEY": "your_stream_key_here"
+    }
+  }
+}
