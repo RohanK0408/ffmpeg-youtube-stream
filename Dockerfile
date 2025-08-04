@@ -1,9 +1,5 @@
-FROM ubuntu:22.04
+FROM jrottenberg/ffmpeg:4.4-ubuntu
 
-RUN apt-get update && \
-    apt-get install -y ffmpeg curl
-
-WORKDIR /app
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
