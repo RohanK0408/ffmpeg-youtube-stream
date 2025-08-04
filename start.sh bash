@@ -1,4 +1,4 @@
-{echo "Starting FFmpeg livestream..."
+echo "Starting FFmpeg livestream..."
 
 ffmpeg -re -i "$SONG_URL" \
 -f lavfi -i anullsrc -shortest \
